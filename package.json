@@ -1,0 +1,23 @@
+{
+  "name": "inventory-db-system",
+  "version": "1.0.0",
+  "description": "Inventory management system with SQL, triggers and React interface",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:init": "node scripts/initDb.js"
+  },
+  "dependencies": {
+    "next": "15.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sql.js": "^1.10.3",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
